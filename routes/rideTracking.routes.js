@@ -22,7 +22,7 @@ const cabRideTracking = asyncHandler((req, res) => {
     
     return res
     .status(200)
-    .send("{allotmentPending}")
+    .send(allotmentPending)
     
 
      
